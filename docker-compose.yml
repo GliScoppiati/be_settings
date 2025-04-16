@@ -29,6 +29,20 @@ services:
     networks:
       - backend
 
+  user-profile-service:
+    build:
+      context: ./UserProfileService
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - "5002:80"
+    networks:
+      - backend
+
   gateway:
     build:
       context: ./Gateway
