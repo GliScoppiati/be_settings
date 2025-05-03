@@ -109,6 +109,56 @@ services:
       - "5000:5000"
     networks:
       - backend
+  # --------------------------------------------------
+  # PROMETHEUS
+  # --------------------------------------------------
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # LOKI
+  # --------------------------------------------------
+  loki:
+    image: grafana/loki:2.9.0
+    ports:
+      - "3100:3100"
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # GRAFANA
+  # --------------------------------------------------
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - backend
+    depends_on:
+      - prometheus
+      - loki
+  # --------------------------------------------------
+  # CADVISOR
+  # --------------------------------------------------
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - "8080:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    networks:
+      - backend
 
 volumes:
   pgdata:
