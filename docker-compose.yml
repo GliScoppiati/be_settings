@@ -110,6 +110,25 @@ services:
     #  - "5005:80"
     networks:
       - backend
+  # --------------------------------------------------
+  # SEARCH SERVICE
+  # --------------------------------------------------
+  search-service:
+    build:
+      context: ./SearchService
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
+      - JWT__Issuer=CocktailDebacle
+      - JWT__Audience=CocktailDebacleUsers
+    #ports:
+    #  - "5006:80"
+    networks:
+      - backend
   # # --------------------------------------------------
   # # PROMETHEUS
   # # --------------------------------------------------
