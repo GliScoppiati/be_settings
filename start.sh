@@ -11,3 +11,5 @@ git clone git@github.com:GliScoppiati/be_CocktailImportService.git CocktailImpor
 git clone git@github.com:GliScoppiati/be_CocktailSubmissionService.git CocktailSubmissionService
 
 git clone git@github.com:GliScoppiati/be_CocktailService.git CocktailService
+
+git clone git@github.com:GliScoppiati/be_SearchService.git SearchService
