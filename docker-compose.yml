@@ -30,8 +30,9 @@ services:
       - JWT__Key=questa-e-una-chiave-super-segreta-lunga
       - JWT__Issuer=CocktailDebacle
       - JWT__Audience=CocktailDebacleUsers
-    #ports:
-    #  - "5001:80"
+      - AdminUser__Email=admin@cocktail.local
+      - AdminUser__Username=admin
+      - AdminUser__Password=SuperSegreta123!
     networks:
       - backend
   # --------------------------------------------------
