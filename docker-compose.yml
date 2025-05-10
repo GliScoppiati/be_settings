@@ -146,6 +146,27 @@ services:
       - Pexels__ApiKey=${PEXELS_API_KEY}
       - Pixabay__ApiKey=${PIXABAY_API_KEY}
       - Unsplash__AccessKey=${UNSPLASH_ACCESS_KEY}
+    #ports:
+    #  - "5007:80"
+    networks:
+      - backend
+  # --------------------------------------------------
+  # SEARCH HISTORY SERVICE
+  # --------------------------------------------------
+  search-history-service:
+    build:
+      context: ./SearchHistoryService
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
+      - JWT__Issuer=CocktailDebacle
+      - JWT__Audience=CocktailDebacleUsers
+    #ports:
+    #  - "5008:80"
     networks:
       - backend
     #ports:
