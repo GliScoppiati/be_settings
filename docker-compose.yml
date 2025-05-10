@@ -120,7 +120,6 @@ services:
       dockerfile: Dockerfile
     depends_on:
       - postgres
-      - cocktail-service
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:80
