@@ -126,6 +126,7 @@ services:
       - JWT__Key=questa-e-una-chiave-super-segreta-lunga
       - JWT__Issuer=CocktailDebacle
       - JWT__Audience=CocktailDebacleUsers
+      - REFRESH_INTERVAL_MINUTES=1
     #ports:
     #  - "5006:80"
     networks:
