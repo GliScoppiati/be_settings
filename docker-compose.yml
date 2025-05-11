@@ -170,8 +170,25 @@ services:
     #  - "5008:80"
     networks:
       - backend
+  # --------------------------------------------------
+  # FAVORITE COCKTAILS SERVICE
+  # --------------------------------------------------
+  favorite-cocktails-service:
+    build:
+      context: ./FavoriteCocktailsService
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
+      - JWT__Issuer=CocktailDebacle
+      - JWT__Audience=CocktailDebacleUsers
     #ports:
-    #  - "5007:80"
+    #  - "5008:80"
+    networks:
+      - backend
   # # --------------------------------------------------
   # # PROMETHEUS
   # # --------------------------------------------------
