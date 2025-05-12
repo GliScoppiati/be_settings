@@ -1,0 +1,122 @@
+[
+  {
+    "Id": "e951a8d9-b6c9-4741-a558-0052eb67d7fb",
+    "UserId": "50649caa-b029-44a9-8081-a120fe064af2",
+    "CocktailId": "ed1594a3-dc38-4493-8327-5248e056935a",
+    "FavoritedAt": "2025-05-12T07:35:00.545504"
+  },
+  {
+    "Id": "3b286665-937d-4942-b16c-9f114fce987b",
+    "UserId": "851cd325-0984-4700-a145-68f99eed5a0f",
+    "CocktailId": "55fc33af-9595-4499-b21b-a4d6b867840e",
+    "FavoritedAt": "2025-05-12T07:35:00.545538"
+  },
+  {
+    "Id": "8c2d6ebc-afa7-4fb1-b6d4-51de54816698",
+    "UserId": "e51bec39-a29d-4ad0-8c65-0a0aa17ec159",
+    "CocktailId": "74607d8e-82e1-4785-9d3b-dc2d84b9c585",
+    "FavoritedAt": "2025-05-12T07:35:00.545558"
+  },
+  {
+    "Id": "88fa7ec1-d1d4-4281-8d57-43edec791cc3",
+    "UserId": "50649caa-b029-44a9-8081-a120fe064af2",
+    "CocktailId": "82933655-16db-427d-86ff-742ef8a1947d",
+    "FavoritedAt": "2025-05-12T07:35:00.545586"
+  },
+  {
+    "Id": "b3d25804-371c-41cc-b6fb-736d3daa8dc1",
+    "UserId": "60586750-381f-47a8-963a-990f5d5701af",
+    "CocktailId": "d57be13a-1752-4b2a-b1fc-249e19b90afe",
+    "FavoritedAt": "2025-05-12T07:35:00.545606"
+  },
+  {
+    "Id": "7e9ece6a-ae42-491b-acac-9f3dd9d0836d",
+    "UserId": "50649caa-b029-44a9-8081-a120fe064af2",
+    "CocktailId": "9fd5d0e1-0e5c-4eb8-99b3-ad220d5e8991",
+    "FavoritedAt": "2025-05-12T07:35:00.545620"
+  },
+  {
+    "Id": "0c3cea08-e8d0-43b6-a03c-d93d5063d302",
+    "UserId": "4ca03348-dca5-4b89-8b9e-7f41308947bd",
+    "CocktailId": "9b6da182-4101-431a-b949-2724bbd1dbce",
+    "FavoritedAt": "2025-05-12T07:35:00.545634"
+  },
+  {
+    "Id": "e122283c-222f-4e76-8aa6-1837c8399d9b",
+    "UserId": "bf4d6349-9ee1-4c44-87a4-a05fed2f0d06",
+    "CocktailId": "bb379661-3b3d-4959-82ca-27fb9ecdc9fb",
+    "FavoritedAt": "2025-05-12T07:35:00.545649"
+  },
+  {
+    "Id": "d6fb1653-7f57-4a4e-9437-c6655ee07557",
+    "UserId": "1c23ed5f-d05c-4c5e-907e-2de493db3c72",
+    "CocktailId": "468b8b2d-8d78-46aa-996c-838064d98349",
+    "FavoritedAt": "2025-05-12T07:35:00.545663"
+  },
+  {
+    "Id": "9ff65135-b542-44d1-98e4-d27166f8b5da",
+    "UserId": "e51bec39-a29d-4ad0-8c65-0a0aa17ec159",
+    "CocktailId": "fa04fe4f-c684-4603-abd0-6e824095480c",
+    "FavoritedAt": "2025-05-12T07:35:00.545677"
+  },
+  {
+    "Id": "340beb2f-f198-465f-aafc-91f652c24b4e",
+    "UserId": "50649caa-b029-44a9-8081-a120fe064af2",
+    "CocktailId": "d57be13a-1752-4b2a-b1fc-249e19b90afe",
+    "FavoritedAt": "2025-05-12T07:35:00.545690"
+  },
+  {
+    "Id": "c37bc2e2-165d-4ea1-8a87-e2191206e322",
+    "UserId": "1c23ed5f-d05c-4c5e-907e-2de493db3c72",
+    "CocktailId": "82933655-16db-427d-86ff-742ef8a1947d",
+    "FavoritedAt": "2025-05-12T07:35:00.545702"
+  },
+  {
+    "Id": "76a991aa-8c0c-4ffd-8b7c-92d664c11c76",
+    "UserId": "50649caa-b029-44a9-8081-a120fe064af2",
+    "CocktailId": "d79df877-33b4-482d-b35d-f7df0a9e8548",
+    "FavoritedAt": "2025-05-12T07:35:00.545716"
+  },
+  {
+    "Id": "884faede-ee68-4f36-ae26-0e298cfd171a",
+    "UserId": "54ec11e1-ee17-49ad-8b66-96cba53a2794",
+    "CocktailId": "9b6da182-4101-431a-b949-2724bbd1dbce",
+    "FavoritedAt": "2025-05-12T07:35:00.545729"
+  },
+  {
+    "Id": "cd89aa3a-c41d-452b-a1df-50e04e24c8cc",
+    "UserId": "60586750-381f-47a8-963a-990f5d5701af",
+    "CocktailId": "74607d8e-82e1-4785-9d3b-dc2d84b9c585",
+    "FavoritedAt": "2025-05-12T07:35:00.545742"
+  },
+  {
+    "Id": "40262bb9-6f64-4ef7-b360-526fc6f4be52",
+    "UserId": "824ba04b-82d8-4e11-88d8-7428f3d149a9",
+    "CocktailId": "551be95c-941d-4c07-8f02-92e57a883677",
+    "FavoritedAt": "2025-05-12T07:35:00.545755"
+  },
+  {
+    "Id": "38692eec-1345-4872-a95d-39a5c30d6f19",
+    "UserId": "824ba04b-82d8-4e11-88d8-7428f3d149a9",
+    "CocktailId": "c5e3ed23-afc5-4b49-b55e-9be26fb38331",
+    "FavoritedAt": "2025-05-12T07:35:00.545768"
+  },
+  {
+    "Id": "6307cf5c-50a8-4e7b-8e4f-678c891d8cfe",
+    "UserId": "54ec11e1-ee17-49ad-8b66-96cba53a2794",
+    "CocktailId": "551be95c-941d-4c07-8f02-92e57a883677",
+    "FavoritedAt": "2025-05-12T07:35:00.545782"
+  },
+  {
+    "Id": "ad591d6e-a3b4-4c12-9853-82cac71f9b09",
+    "UserId": "bf4d6349-9ee1-4c44-87a4-a05fed2f0d06",
+    "CocktailId": "468b8b2d-8d78-46aa-996c-838064d98349",
+    "FavoritedAt": "2025-05-12T07:35:00.545820"
+  },
+  {
+    "Id": "f0262dd4-db99-4208-bbfd-e42ed0cec1dd",
+    "UserId": "851cd325-0984-4700-a145-68f99eed5a0f",
+    "CocktailId": "9b6da182-4101-431a-b949-2724bbd1dbce",
+    "FavoritedAt": "2025-05-12T07:35:00.545833"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "UserId": "e51bec39-a29d-4ad0-8c65-0a0aa17ec159",
+    "FirstName": "Rebecca",
+    "LastName": "Rubio",
+    "BirthDate": "1970-12-24",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": true
+  },
+  {
+    "UserId": "bf4d6349-9ee1-4c44-87a4-a05fed2f0d06",
+    "FirstName": "Renee",
+    "LastName": "Ramirez",
+    "BirthDate": "2004-11-28",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": false
+  },
+  {
+    "UserId": "851cd325-0984-4700-a145-68f99eed5a0f",
+    "FirstName": "Michael",
+    "LastName": "Cole",
+    "BirthDate": "1977-04-01",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": false
+  },
+  {
+    "UserId": "8474b9dc-7d5e-4cd2-a552-10e074a1e4e6",
+    "FirstName": "Jennifer",
+    "LastName": "Craig",
+    "BirthDate": "1984-06-17",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": true
+  },
+  {
+    "UserId": "824ba04b-82d8-4e11-88d8-7428f3d149a9",
+    "FirstName": "Melissa",
+    "LastName": "Hicks",
+    "BirthDate": "1989-11-18",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": true
+  },
+  {
+    "UserId": "4ca03348-dca5-4b89-8b9e-7f41308947bd",
+    "FirstName": "Megan",
+    "LastName": "Humphrey",
+    "BirthDate": "2002-04-02",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": false
+  },
+  {
+    "UserId": "1c23ed5f-d05c-4c5e-907e-2de493db3c72",
+    "FirstName": "Cody",
+    "LastName": "Fisher",
+    "BirthDate": "1969-03-14",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": true
+  },
+  {
+    "UserId": "60586750-381f-47a8-963a-990f5d5701af",
+    "FirstName": "Joseph",
+    "LastName": "Johnson",
+    "BirthDate": "2001-03-03",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": true
+  },
+  {
+    "UserId": "54ec11e1-ee17-49ad-8b66-96cba53a2794",
+    "FirstName": "Roy",
+    "LastName": "Zhang",
+    "BirthDate": "1971-08-28",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": true
+  },
+  {
+    "UserId": "50649caa-b029-44a9-8081-a120fe064af2",
+    "FirstName": "Kirk",
+    "LastName": "Burns",
+    "BirthDate": "1990-02-09",
+    "AlcoholAllowed": true,
+    "ConsentGdpr": true,
+    "ConsentProfiling": false
+  }
+]

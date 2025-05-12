@@ -1,0 +1,102 @@
+[
+  {
+    "Id": "e51bec39-a29d-4ad0-8c65-0a0aa17ec159",
+    "Username": "henry34",
+    "Email": "crystal73@gmail.com",
+    "PasswordHash": "95c2705fca5f416cd4881e87955264183d1d700be046bc150b7a0cdcdc6fe403",
+    "CreatedAt": "2020-08-03T14:37:27",
+    "LastLogin": "2025-01-09T11:59:38",
+    "IsAdmin": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "bf4d6349-9ee1-4c44-87a4-a05fed2f0d06",
+    "Username": "andrew21",
+    "Email": "melaniemiller@hotmail.com",
+    "PasswordHash": "9bab9993f6c4a6b13635ddeabc8b1db4e531337f258148baa7ec550d2b22f07e",
+    "CreatedAt": "2022-04-15T09:23:07",
+    "LastLogin": "2025-02-21T05:38:00",
+    "IsAdmin": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "851cd325-0984-4700-a145-68f99eed5a0f",
+    "Username": "james78",
+    "Email": "santiagojesse@allen.net",
+    "PasswordHash": "e44534367aa8a9870005f9f8c470e0d9485601b5cc1d362a88ae1145e576865f",
+    "CreatedAt": "2022-10-01T11:49:30",
+    "LastLogin": "2025-03-01T18:01:23",
+    "IsAdmin": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "8474b9dc-7d5e-4cd2-a552-10e074a1e4e6",
+    "Username": "joshua67",
+    "Email": "jonathanbutler@yahoo.com",
+    "PasswordHash": "863f30e454f6704f5ecdb9a03993f858fb6bdc83acd08cf85e5eebaea3266607",
+    "CreatedAt": "2021-01-23T16:08:10",
+    "LastLogin": "2025-03-04T21:44:49",
+    "IsAdmin": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "824ba04b-82d8-4e11-88d8-7428f3d149a9",
+    "Username": "parkerkathy",
+    "Email": "jared35@hotmail.com",
+    "PasswordHash": "9dbc0536597d946bb081541edee5ce8e2215fb73a829ed080ecbcbf33626b68a",
+    "CreatedAt": "2021-11-17T21:56:39",
+    "LastLogin": "2025-03-15T12:32:24",
+    "IsAdmin": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "4ca03348-dca5-4b89-8b9e-7f41308947bd",
+    "Username": "kimberlytaylor",
+    "Email": "victoriabenson@gonzalez.com",
+    "PasswordHash": "ffe3331fd3028db9c01d5c6701b6e1f9dbff2bd25dcfaedd441835dca59d8109",
+    "CreatedAt": "2022-01-26T09:30:38",
+    "LastLogin": "2025-03-27T17:40:13",
+    "IsAdmin": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "1c23ed5f-d05c-4c5e-907e-2de493db3c72",
+    "Username": "taylor19",
+    "Email": "scottwatkins@rodriguez.org",
+    "PasswordHash": "529a03be662da75f4083673b169eb8b1af76edb8e3e0cd174fe49c6b00daa427",
+    "CreatedAt": "2025-01-07T00:29:22",
+    "LastLogin": "2025-01-16T08:30:39",
+    "IsAdmin": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "60586750-381f-47a8-963a-990f5d5701af",
+    "Username": "jhernandez",
+    "Email": "lbrooks@collins.org",
+    "PasswordHash": "1adba4c8f2c8ff0772909a5a206e533ad8b0563fb450f4fcc35bdd4e6389f400",
+    "CreatedAt": "2020-01-15T04:42:13",
+    "LastLogin": "2025-04-10T11:18:52",
+    "IsAdmin": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "54ec11e1-ee17-49ad-8b66-96cba53a2794",
+    "Username": "karen00",
+    "Email": "fitzpatrickjohn@hotmail.com",
+    "PasswordHash": "5207465ca3dacb6eb27be82ad2bd95da3f6608395713aa81520279cdcc920d2e",
+    "CreatedAt": "2022-07-16T18:38:30",
+    "LastLogin": "2025-02-07T18:45:02",
+    "IsAdmin": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "50649caa-b029-44a9-8081-a120fe064af2",
+    "Username": "betty33",
+    "Email": "alanroberts@oconnor-dennis.net",
+    "PasswordHash": "98d6cf6a4c96bc59420b79c33c7ae28e37e4beecc145793d679ec4be919af8af",
+    "CreatedAt": "2024-12-02T17:34:08",
+    "LastLogin": "2025-04-09T18:13:12",
+    "IsAdmin": false,
+    "IsDeleted": false
+  }
+]

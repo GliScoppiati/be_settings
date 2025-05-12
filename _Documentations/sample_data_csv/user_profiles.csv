@@ -1,0 +1,11 @@
+UserId,FirstName,LastName,BirthDate,AlcoholAllowed,ConsentGdpr,ConsentProfiling
+e51bec39-a29d-4ad0-8c65-0a0aa17ec159,Rebecca,Rubio,1970-12-24,True,True,True
+bf4d6349-9ee1-4c44-87a4-a05fed2f0d06,Renee,Ramirez,2004-11-28,True,True,False
+851cd325-0984-4700-a145-68f99eed5a0f,Michael,Cole,1977-04-01,True,True,False
+8474b9dc-7d5e-4cd2-a552-10e074a1e4e6,Jennifer,Craig,1984-06-17,True,True,True
+824ba04b-82d8-4e11-88d8-7428f3d149a9,Melissa,Hicks,1989-11-18,True,True,True
+4ca03348-dca5-4b89-8b9e-7f41308947bd,Megan,Humphrey,2002-04-02,True,True,False
+1c23ed5f-d05c-4c5e-907e-2de493db3c72,Cody,Fisher,1969-03-14,True,True,True
+60586750-381f-47a8-963a-990f5d5701af,Joseph,Johnson,2001-03-03,True,True,True
+54ec11e1-ee17-49ad-8b66-96cba53a2794,Roy,Zhang,1971-08-28,True,True,True
+50649caa-b029-44a9-8081-a120fe064af2,Kirk,Burns,1990-02-09,True,True,False

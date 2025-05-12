@@ -1,0 +1,298 @@
+[
+  {
+    "CocktailIngredientId": "43bcf8fe-4bfe-4567-bb73-71340e983028",
+    "CocktailId": "b4814c64-cd09-4239-a6c7-41e72ce8893f",
+    "IngredientId": "d354de90-3ce9-427d-9279-89e672715f48",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 18.5
+  },
+  {
+    "CocktailIngredientId": "d2e65c74-1bfa-42e5-bf99-c236dd479f4d",
+    "CocktailId": "b4814c64-cd09-4239-a6c7-41e72ce8893f",
+    "IngredientId": "8f0708a5-7c44-4acf-bc69-e89e40f3b01f",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 30.47
+  },
+  {
+    "CocktailIngredientId": "ea8bf8cc-fdeb-4e97-8f89-a5c67c333315",
+    "CocktailId": "b4814c64-cd09-4239-a6c7-41e72ce8893f",
+    "IngredientId": "72a23156-d57b-494f-b481-27d8e13e7341",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 30.16
+  },
+  {
+    "CocktailIngredientId": "86036b49-737e-4ee9-a424-518b5d6fef32",
+    "CocktailId": "b4814c64-cd09-4239-a6c7-41e72ce8893f",
+    "IngredientId": "62290454-307b-4b95-b9fb-da2e0d4fc238",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 29.53
+  },
+  {
+    "CocktailIngredientId": "b9dff4bc-7613-4d69-b205-424d9c6e7dad",
+    "CocktailId": "91337d09-fca7-48b2-adfa-65dc07245a97",
+    "IngredientId": "1f2a25c9-2178-4e87-a2b3-cbc4729006b3",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 34.09
+  },
+  {
+    "CocktailIngredientId": "b7631d44-03c7-46d0-87c7-9f853931205a",
+    "CocktailId": "91337d09-fca7-48b2-adfa-65dc07245a97",
+    "IngredientId": "a6d992f2-bb15-444d-8ff1-07ad74bf3684",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 49.84
+  },
+  {
+    "CocktailIngredientId": "fe329e1f-2a6d-4ff1-ac35-e54e0f81b156",
+    "CocktailId": "c5e3ed23-afc5-4b49-b55e-9be26fb38331",
+    "IngredientId": "8f0708a5-7c44-4acf-bc69-e89e40f3b01f",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 21.25
+  },
+  {
+    "CocktailIngredientId": "7181fb87-ac4b-4fe3-889a-91f108462629",
+    "CocktailId": "c7200c87-3695-4e9f-bab4-6de282bc4d22",
+    "IngredientId": "ecc071dc-79e0-49e3-9747-d28dbe46aef9",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 43.87
+  },
+  {
+    "CocktailIngredientId": "fbf0de64-d900-4c75-a658-2078533b9212",
+    "CocktailId": "c7200c87-3695-4e9f-bab4-6de282bc4d22",
+    "IngredientId": "7ce812f9-e01f-461e-bf8b-3cce2a059f18",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 35.9
+  },
+  {
+    "CocktailIngredientId": "6a8ca496-a923-4ca0-898f-b196fff20f0d",
+    "CocktailId": "c7200c87-3695-4e9f-bab4-6de282bc4d22",
+    "IngredientId": "48637f1d-0dde-4a63-967e-0858970914fb",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 15.2
+  },
+  {
+    "CocktailIngredientId": "e3f5dd98-bf14-47a3-a4f4-7c91a968e886",
+    "CocktailId": "74607d8e-82e1-4785-9d3b-dc2d84b9c585",
+    "IngredientId": "d354de90-3ce9-427d-9279-89e672715f48",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 59.63
+  },
+  {
+    "CocktailIngredientId": "095e8324-cd38-4a98-b96a-ca6fb05eb735",
+    "CocktailId": "74607d8e-82e1-4785-9d3b-dc2d84b9c585",
+    "IngredientId": "c4110128-35c6-4dfc-a86c-796c6d0f9f70",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 28.54
+  },
+  {
+    "CocktailIngredientId": "e7da43df-157c-446d-a67a-7312e3479a69",
+    "CocktailId": "74607d8e-82e1-4785-9d3b-dc2d84b9c585",
+    "IngredientId": "83673277-3768-406b-a0a4-679f2e186600",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 57.25
+  },
+  {
+    "CocktailIngredientId": "0d5a8a02-0784-42d9-b241-3f74f7d20815",
+    "CocktailId": "74607d8e-82e1-4785-9d3b-dc2d84b9c585",
+    "IngredientId": "83673277-3768-406b-a0a4-679f2e186600",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 11.9
+  },
+  {
+    "CocktailIngredientId": "ea8ea787-b20a-4e2e-909c-ba3bc67fe501",
+    "CocktailId": "74607d8e-82e1-4785-9d3b-dc2d84b9c585",
+    "IngredientId": "097d68dc-27e5-4b2e-82c8-98b59bc7f71a",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 14.05
+  },
+  {
+    "CocktailIngredientId": "53c030f5-fd1c-41fb-85d5-f0d01331cddf",
+    "CocktailId": "4fd84a15-3ce9-4a5e-99a9-8858b20b1f93",
+    "IngredientId": "2e5600f9-840b-4233-a702-7f3391329b0d",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 43.2
+  },
+  {
+    "CocktailIngredientId": "cc08d8d0-9f36-4d13-a70f-7827227cab6d",
+    "CocktailId": "4fd84a15-3ce9-4a5e-99a9-8858b20b1f93",
+    "IngredientId": "8f0708a5-7c44-4acf-bc69-e89e40f3b01f",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 13.09
+  },
+  {
+    "CocktailIngredientId": "a49fd20c-e98f-4edd-9a21-171908cdfa6f",
+    "CocktailId": "9fd5d0e1-0e5c-4eb8-99b3-ad220d5e8991",
+    "IngredientId": "48637f1d-0dde-4a63-967e-0858970914fb",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 31.2
+  },
+  {
+    "CocktailIngredientId": "8efa86ba-b916-4da4-bd77-092c860e06fa",
+    "CocktailId": "9fd5d0e1-0e5c-4eb8-99b3-ad220d5e8991",
+    "IngredientId": "ba789679-5f7d-4377-961c-1dc0b4a93127",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 15.38
+  },
+  {
+    "CocktailIngredientId": "1a9a9f05-c66d-411a-a141-394e544a259a",
+    "CocktailId": "9fd5d0e1-0e5c-4eb8-99b3-ad220d5e8991",
+    "IngredientId": "2e304216-98ef-496f-8ca1-90a2c8fb1536",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 58.41
+  },
+  {
+    "CocktailIngredientId": "bb77667e-8164-4cf0-abfb-8c532ab66102",
+    "CocktailId": "9fd5d0e1-0e5c-4eb8-99b3-ad220d5e8991",
+    "IngredientId": "1f2a25c9-2178-4e87-a2b3-cbc4729006b3",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 56.64
+  },
+  {
+    "CocktailIngredientId": "aedec682-6f63-4be1-9225-d8988348c395",
+    "CocktailId": "bb379661-3b3d-4959-82ca-27fb9ecdc9fb",
+    "IngredientId": "72a23156-d57b-494f-b481-27d8e13e7341",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 10.19
+  },
+  {
+    "CocktailIngredientId": "8a5614cb-8051-46a3-8932-b92eb69bb1f5",
+    "CocktailId": "bb379661-3b3d-4959-82ca-27fb9ecdc9fb",
+    "IngredientId": "bb01f43e-ceae-46f2-9006-a43391292f00",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 47.96
+  },
+  {
+    "CocktailIngredientId": "ca37d0bd-56db-45f4-9562-0b06174402e6",
+    "CocktailId": "bb379661-3b3d-4959-82ca-27fb9ecdc9fb",
+    "IngredientId": "5035f092-96a9-44f4-a47c-d3c5afc918e0",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 54.9
+  },
+  {
+    "CocktailIngredientId": "fb1f1d53-7c5c-4c90-a887-b2135064b688",
+    "CocktailId": "82933655-16db-427d-86ff-742ef8a1947d",
+    "IngredientId": "8c75b06c-6211-48b7-bd96-71b814a87008",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 38.05
+  },
+  {
+    "CocktailIngredientId": "e59a29b8-e80e-4d52-8aec-2f4ef9a7b5cb",
+    "CocktailId": "7875f482-f11c-45af-afe2-7bba8c4116ec",
+    "IngredientId": "2e5600f9-840b-4233-a702-7f3391329b0d",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 31.07
+  },
+  {
+    "CocktailIngredientId": "7bc4a2cb-3945-4f18-b955-9dc8aa9359a2",
+    "CocktailId": "7875f482-f11c-45af-afe2-7bba8c4116ec",
+    "IngredientId": "26ba3be4-a346-4305-a5c0-0e777f8bc1ca",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 11.79
+  },
+  {
+    "CocktailIngredientId": "098eb52d-6c20-4a1f-a0b4-9a325335a36d",
+    "CocktailId": "7875f482-f11c-45af-afe2-7bba8c4116ec",
+    "IngredientId": "c4110128-35c6-4dfc-a86c-796c6d0f9f70",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 52.42
+  },
+  {
+    "CocktailIngredientId": "c1bc3c38-74ff-4517-98cd-79396efb2995",
+    "CocktailId": "7875f482-f11c-45af-afe2-7bba8c4116ec",
+    "IngredientId": "56438b27-2a81-440d-992f-e4bbc09bbb2c",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 19.81
+  },
+  {
+    "CocktailIngredientId": "03572cde-d73c-47ec-8744-30566037d973",
+    "CocktailId": "7875f482-f11c-45af-afe2-7bba8c4116ec",
+    "IngredientId": "daf9f147-b9d9-43ab-a551-e5888b18c923",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 16.13
+  },
+  {
+    "CocktailIngredientId": "1bcf2d59-f84b-455d-99ab-579fa5891f7a",
+    "CocktailId": "d79df877-33b4-482d-b35d-f7df0a9e8548",
+    "IngredientId": "72a23156-d57b-494f-b481-27d8e13e7341",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 57.28
+  },
+  {
+    "CocktailIngredientId": "77d9aae7-edb2-4cb6-ba8e-3b2eeee9f911",
+    "CocktailId": "55fc33af-9595-4499-b21b-a4d6b867840e",
+    "IngredientId": "72a23156-d57b-494f-b481-27d8e13e7341",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 29.29
+  },
+  {
+    "CocktailIngredientId": "b4ef69da-8244-4931-836c-3a535aa84f3e",
+    "CocktailId": "ed1594a3-dc38-4493-8327-5248e056935a",
+    "IngredientId": "2e304216-98ef-496f-8ca1-90a2c8fb1536",
+    "OriginalMeasure": "1 oz",
+    "QuantityUnit": "ml",
+    "QuantityValue": 27.68
+  },
+  {
+    "CocktailIngredientId": "0d1abe3b-6db8-4dee-b5a0-1c663bb06219",
+    "CocktailId": "468b8b2d-8d78-46aa-996c-838064d98349",
+    "IngredientId": "ecc071dc-79e0-49e3-9747-d28dbe46aef9",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 31.87
+  },
+  {
+    "CocktailIngredientId": "4d68a1e3-12a1-4ea4-9363-a297a8a2b2dd",
+    "CocktailId": "468b8b2d-8d78-46aa-996c-838064d98349",
+    "IngredientId": "72a23156-d57b-494f-b481-27d8e13e7341",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 50.09
+  },
+  {
+    "CocktailIngredientId": "c552330e-6bb9-424e-8b23-e90ccd9e4695",
+    "CocktailId": "468b8b2d-8d78-46aa-996c-838064d98349",
+    "IngredientId": "d354de90-3ce9-427d-9279-89e672715f48",
+    "OriginalMeasure": "1/2 cup",
+    "QuantityUnit": "ml",
+    "QuantityValue": 46.48
+  },
+  {
+    "CocktailIngredientId": "e6f1752e-f2f1-4a0a-a568-62b1f44cefa4",
+    "CocktailId": "312ca7e2-1f96-4543-aa85-6a355cbd19f0",
+    "IngredientId": "8c75b06c-6211-48b7-bd96-71b814a87008",
+    "OriginalMeasure": "2 tsp",
+    "QuantityUnit": "ml",
+    "QuantityValue": 37.7
+  }
+]

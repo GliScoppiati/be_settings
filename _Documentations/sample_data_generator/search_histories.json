@@ -1,0 +1,92 @@
+[
+  {
+    "Id": "832cc092-58a7-4764-9e5c-0f33563129d6",
+    "UserId": "4ca03348-dca5-4b89-8b9e-7f41308947bd",
+    "SearchedAt": "2025-05-12T07:35:00.546096",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "2b496753-7d17-49f2-a4fd-b4924dc1cc0f",
+    "UserId": "824ba04b-82d8-4e11-88d8-7428f3d149a9",
+    "SearchedAt": "2025-05-12T07:35:00.546130",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "bdf1badb-f1ed-4e26-b1ee-a04d9d4d9d88",
+    "UserId": "851cd325-0984-4700-a145-68f99eed5a0f",
+    "SearchedAt": "2025-05-12T07:35:00.546151",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "b9f2b5a3-2ed5-478b-b897-407133843548",
+    "UserId": "8474b9dc-7d5e-4cd2-a552-10e074a1e4e6",
+    "SearchedAt": "2025-05-12T07:35:00.546171",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "29629449-2965-44c0-ad2f-fdc01a874c53",
+    "UserId": "bf4d6349-9ee1-4c44-87a4-a05fed2f0d06",
+    "SearchedAt": "2025-05-12T07:35:00.546192",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "ad4388d9-8a48-4aff-b975-54cc3e398324",
+    "UserId": "1c23ed5f-d05c-4c5e-907e-2de493db3c72",
+    "SearchedAt": "2025-05-12T07:35:00.546213",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "c14951e4-7a98-4121-9715-1267e54c7931",
+    "UserId": "4ca03348-dca5-4b89-8b9e-7f41308947bd",
+    "SearchedAt": "2025-05-12T07:35:00.546234",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "d45fdba9-3617-4a7c-ac37-97314ab2e16e",
+    "UserId": "54ec11e1-ee17-49ad-8b66-96cba53a2794",
+    "SearchedAt": "2025-05-12T07:35:00.546258",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "8a1d58d5-1d89-421c-a955-d90297a6d61f",
+    "UserId": "4ca03348-dca5-4b89-8b9e-7f41308947bd",
+    "SearchedAt": "2025-05-12T07:35:00.546280",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "4e35a3c1-9a06-4042-a9f5-7cd8ad8d6659",
+    "UserId": "851cd325-0984-4700-a145-68f99eed5a0f",
+    "SearchedAt": "2025-05-12T07:35:00.546301",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "217cbd97-575e-401b-be04-aa5399dd7e5e",
+    "UserId": "4ca03348-dca5-4b89-8b9e-7f41308947bd",
+    "SearchedAt": "2025-05-12T07:35:00.546323",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "82d08b8a-b652-4859-9709-99f137a4a691",
+    "UserId": "1c23ed5f-d05c-4c5e-907e-2de493db3c72",
+    "SearchedAt": "2025-05-12T07:35:00.546344",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "455fc0af-ae07-43e5-a089-5aee4df20cf0",
+    "UserId": "50649caa-b029-44a9-8081-a120fe064af2",
+    "SearchedAt": "2025-05-12T07:35:00.546364",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "aa8c3dcb-209d-4745-b266-bf6919fc423d",
+    "UserId": "54ec11e1-ee17-49ad-8b66-96cba53a2794",
+    "SearchedAt": "2025-05-12T07:35:00.546384",
+    "Action": "search_cocktail"
+  },
+  {
+    "Id": "ece2cee7-2703-462e-ad5a-8dda82e46115",
+    "UserId": "8474b9dc-7d5e-4cd2-a552-10e074a1e4e6",
+    "SearchedAt": "2025-05-12T07:35:00.546409",
+    "Action": "search_cocktail"
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "SubmissionIngredientId": "73ebc979-3278-4870-b7ad-3b6619125436",
+    "SubmissionId": "37a49ccf-01ad-4bb3-a8bf-d403172c39e0",
+    "IngredientId": "8f0708a5-7c44-4acf-bc69-e89e40f3b01f",
+    "ProposedName": null,
+    "QuantityValue": 49.9,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "7e43be52-9b68-4555-ad89-0a19ac18fb0f",
+    "SubmissionId": "37a49ccf-01ad-4bb3-a8bf-d403172c39e0",
+    "IngredientId": "1f2a25c9-2178-4e87-a2b3-cbc4729006b3",
+    "ProposedName": null,
+    "QuantityValue": 35.66,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "83013541-a22f-41fc-8557-ab07666782c2",
+    "SubmissionId": "37a49ccf-01ad-4bb3-a8bf-d403172c39e0",
+    "IngredientId": "a6d992f2-bb15-444d-8ff1-07ad74bf3684",
+    "ProposedName": null,
+    "QuantityValue": 25.73,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "dfc0bcd4-0c1e-447b-a49b-fb9e596a4f99",
+    "SubmissionId": "37a49ccf-01ad-4bb3-a8bf-d403172c39e0",
+    "IngredientId": "d354de90-3ce9-427d-9279-89e672715f48",
+    "ProposedName": null,
+    "QuantityValue": 37.28,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "00f2a6e8-706a-4ae6-bdb9-5e02acee1889",
+    "SubmissionId": "37a49ccf-01ad-4bb3-a8bf-d403172c39e0",
+    "IngredientId": "12d7efdb-6930-4fe6-a473-2047f3a4263e",
+    "ProposedName": null,
+    "QuantityValue": 45.63,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "836e9082-a4fc-477a-9695-379a2041b7ee",
+    "SubmissionId": "90940dca-d7e4-4dc2-bb64-aa316dea41da",
+    "IngredientId": "daf9f147-b9d9-43ab-a551-e5888b18c923",
+    "ProposedName": null,
+    "QuantityValue": 30.11,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "123596a6-4802-487c-906e-48abdb88ddc4",
+    "SubmissionId": "90940dca-d7e4-4dc2-bb64-aa316dea41da",
+    "IngredientId": "62290454-307b-4b95-b9fb-da2e0d4fc238",
+    "ProposedName": null,
+    "QuantityValue": 41.66,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "7d5a2e2b-0e36-47b9-8557-c9e3d629cd2a",
+    "SubmissionId": "90940dca-d7e4-4dc2-bb64-aa316dea41da",
+    "IngredientId": "d354de90-3ce9-427d-9279-89e672715f48",
+    "ProposedName": null,
+    "QuantityValue": 5.79,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "9d3379a0-2873-436b-b57c-c6dfbe5c511d",
+    "SubmissionId": "90940dca-d7e4-4dc2-bb64-aa316dea41da",
+    "IngredientId": "c9d4e318-ade4-45f5-be2e-7dc094da0719",
+    "ProposedName": null,
+    "QuantityValue": 23.94,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "0e860b2d-f2f2-4ade-9c70-6b93e181f645",
+    "SubmissionId": "9fbabfe4-aa8f-4deb-8a9d-117ad3029106",
+    "IngredientId": "2e5600f9-840b-4233-a702-7f3391329b0d",
+    "ProposedName": null,
+    "QuantityValue": 47.05,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "c017e0fb-e3c9-4e8d-810c-b8f2f84b5b6a",
+    "SubmissionId": "ec6cecc4-a822-430c-9fad-25b076c0a956",
+    "IngredientId": "467deecf-4ab2-4af3-ad13-fc8a50316f01",
+    "ProposedName": null,
+    "QuantityValue": 44.4,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "847f7c24-d69c-4dd7-8034-b8832a318792",
+    "SubmissionId": "ec6cecc4-a822-430c-9fad-25b076c0a956",
+    "IngredientId": "daf9f147-b9d9-43ab-a551-e5888b18c923",
+    "ProposedName": null,
+    "QuantityValue": 18.39,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "3594826f-31cf-4a12-aa73-3da05db08e4b",
+    "SubmissionId": "ec6cecc4-a822-430c-9fad-25b076c0a956",
+    "IngredientId": "2e5600f9-840b-4233-a702-7f3391329b0d",
+    "ProposedName": null,
+    "QuantityValue": 30.24,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "98f231be-c79a-43dd-9a83-0a892bd937ae",
+    "SubmissionId": "4ec4c0c4-3047-47e3-98af-8eea6e2b3c86",
+    "IngredientId": "daf9f147-b9d9-43ab-a551-e5888b18c923",
+    "ProposedName": null,
+    "QuantityValue": 33.81,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "8e00c55c-e709-4309-8cb7-2093083f23ae",
+    "SubmissionId": "4ec4c0c4-3047-47e3-98af-8eea6e2b3c86",
+    "IngredientId": "c4110128-35c6-4dfc-a86c-796c6d0f9f70",
+    "ProposedName": null,
+    "QuantityValue": 14.25,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "679c8a4b-f9d2-4051-9e5a-d886bd883956",
+    "SubmissionId": "4ec4c0c4-3047-47e3-98af-8eea6e2b3c86",
+    "IngredientId": "72a23156-d57b-494f-b481-27d8e13e7341",
+    "ProposedName": null,
+    "QuantityValue": 46.76,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "b39e5f17-68c9-497c-806d-e75515f940dc",
+    "SubmissionId": "4ec4c0c4-3047-47e3-98af-8eea6e2b3c86",
+    "IngredientId": "12d7efdb-6930-4fe6-a473-2047f3a4263e",
+    "ProposedName": null,
+    "QuantityValue": 19.24,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "bed6a769-a280-4707-a6b7-3984ca7a7677",
+    "SubmissionId": "33e3787c-b369-45ad-b4bc-7ff770a73007",
+    "IngredientId": "26ba3be4-a346-4305-a5c0-0e777f8bc1ca",
+    "ProposedName": null,
+    "QuantityValue": 36.45,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "dbafb991-cd6d-4978-926f-aec3485b500b",
+    "SubmissionId": "33e3787c-b369-45ad-b4bc-7ff770a73007",
+    "IngredientId": "8f0708a5-7c44-4acf-bc69-e89e40f3b01f",
+    "ProposedName": null,
+    "QuantityValue": 48.13,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "b48122a9-c907-444b-ad13-f283b8034a9d",
+    "SubmissionId": "33e3787c-b369-45ad-b4bc-7ff770a73007",
+    "IngredientId": "c4110128-35c6-4dfc-a86c-796c6d0f9f70",
+    "ProposedName": null,
+    "QuantityValue": 16.01,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "fe3b8453-0d09-49ee-a346-bd4ab4383827",
+    "SubmissionId": "33e3787c-b369-45ad-b4bc-7ff770a73007",
+    "IngredientId": "daf9f147-b9d9-43ab-a551-e5888b18c923",
+    "ProposedName": null,
+    "QuantityValue": 35.52,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "8741a37a-614d-4477-9537-3befbe74b5a7",
+    "SubmissionId": "a39b4ffe-26b0-42e3-a1cf-6fd2d67f240e",
+    "IngredientId": "48637f1d-0dde-4a63-967e-0858970914fb",
+    "ProposedName": null,
+    "QuantityValue": 22.74,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "413f5d00-ed5a-4ad8-be2d-b7e6a93eb4b8",
+    "SubmissionId": "a39b4ffe-26b0-42e3-a1cf-6fd2d67f240e",
+    "IngredientId": "8f0708a5-7c44-4acf-bc69-e89e40f3b01f",
+    "ProposedName": null,
+    "QuantityValue": 22.75,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "a97977d5-7b3e-437b-a098-10a279aa1d4e",
+    "SubmissionId": "206cf678-ecd7-4b5c-bef2-74a214eaaa5f",
+    "IngredientId": "7ce812f9-e01f-461e-bf8b-3cce2a059f18",
+    "ProposedName": null,
+    "QuantityValue": 18.08,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  },
+  {
+    "SubmissionIngredientId": "a98fb616-2c5f-4fc4-acb7-f9173dca1fda",
+    "SubmissionId": "206cf678-ecd7-4b5c-bef2-74a214eaaa5f",
+    "IngredientId": "12d7efdb-6930-4fe6-a473-2047f3a4263e",
+    "ProposedName": null,
+    "QuantityValue": 20.03,
+    "QuantityUnit": "ml",
+    "OriginalMeasure": "1 oz"
+  }
+]

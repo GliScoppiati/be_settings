@@ -1,0 +1,227 @@
+[
+  {
+    "IngredientId": "8f0708a5-7c44-4acf-bc69-e89e40f3b01f",
+    "Name": "How",
+    "NormalizedName": "how",
+    "Description": "Throughout conference hope resource out administration.",
+    "Type": "juice",
+    "IsAlcoholic": true,
+    "Abv": 2.64
+  },
+  {
+    "IngredientId": "467deecf-4ab2-4af3-ad13-fc8a50316f01",
+    "Name": "Program",
+    "NormalizedName": "program",
+    "Description": "Simple high book perhaps avoid team black.",
+    "Type": "garnish",
+    "IsAlcoholic": false,
+    "Abv": 29.44
+  },
+  {
+    "IngredientId": "48637f1d-0dde-4a63-967e-0858970914fb",
+    "Name": "Wide",
+    "NormalizedName": "wide",
+    "Description": "Wide when son federal.",
+    "Type": "garnish",
+    "IsAlcoholic": false,
+    "Abv": 39.6
+  },
+  {
+    "IngredientId": "c4110128-35c6-4dfc-a86c-796c6d0f9f70",
+    "Name": "Community",
+    "NormalizedName": "community",
+    "Description": "Tough once position particularly red.",
+    "Type": "garnish",
+    "IsAlcoholic": false,
+    "Abv": 25.69
+  },
+  {
+    "IngredientId": "c9d4e318-ade4-45f5-be2e-7dc094da0719",
+    "Name": "Claim",
+    "NormalizedName": "claim",
+    "Description": "Eight prepare tough he before church important.",
+    "Type": "garnish",
+    "IsAlcoholic": false,
+    "Abv": 46.22
+  },
+  {
+    "IngredientId": "daf9f147-b9d9-43ab-a551-e5888b18c923",
+    "Name": "Phone",
+    "NormalizedName": "phone",
+    "Description": "Might however agency agreement guess ball.",
+    "Type": "liquor",
+    "IsAlcoholic": false,
+    "Abv": 19.46
+  },
+  {
+    "IngredientId": "1f2a25c9-2178-4e87-a2b3-cbc4729006b3",
+    "Name": "Ability",
+    "NormalizedName": "ability",
+    "Description": "First kid these across exactly strategy.",
+    "Type": "liquor",
+    "IsAlcoholic": false,
+    "Abv": 11.39
+  },
+  {
+    "IngredientId": "d354de90-3ce9-427d-9279-89e672715f48",
+    "Name": "Political",
+    "NormalizedName": "political",
+    "Description": "Other edge generation remember there remain me.",
+    "Type": "spice",
+    "IsAlcoholic": false,
+    "Abv": 10.33
+  },
+  {
+    "IngredientId": "097d68dc-27e5-4b2e-82c8-98b59bc7f71a",
+    "Name": "Mother",
+    "NormalizedName": "mother",
+    "Description": "Sign him argue.",
+    "Type": "juice",
+    "IsAlcoholic": true,
+    "Abv": 49.26
+  },
+  {
+    "IngredientId": "12d7efdb-6930-4fe6-a473-2047f3a4263e",
+    "Name": "Word",
+    "NormalizedName": "word",
+    "Description": "Build fire truth them.",
+    "Type": "garnish",
+    "IsAlcoholic": true,
+    "Abv": 20.97
+  },
+  {
+    "IngredientId": "ba789679-5f7d-4377-961c-1dc0b4a93127",
+    "Name": "Business",
+    "NormalizedName": "business",
+    "Description": "Create enter road already.",
+    "Type": "juice",
+    "IsAlcoholic": false,
+    "Abv": 28.91
+  },
+  {
+    "IngredientId": "0004616f-50a8-476e-b42a-690d6c16bec1",
+    "Name": "Leg",
+    "NormalizedName": "leg",
+    "Description": "After economic amount.",
+    "Type": "garnish",
+    "IsAlcoholic": true,
+    "Abv": 23.25
+  },
+  {
+    "IngredientId": "2e304216-98ef-496f-8ca1-90a2c8fb1536",
+    "Name": "Dog",
+    "NormalizedName": "dog",
+    "Description": "Hair attention impact other.",
+    "Type": "spice",
+    "IsAlcoholic": true,
+    "Abv": 27.94
+  },
+  {
+    "IngredientId": "5035f092-96a9-44f4-a47c-d3c5afc918e0",
+    "Name": "Many",
+    "NormalizedName": "many",
+    "Description": "These down address allow.",
+    "Type": "juice",
+    "IsAlcoholic": true,
+    "Abv": 1.45
+  },
+  {
+    "IngredientId": "a6d992f2-bb15-444d-8ff1-07ad74bf3684",
+    "Name": "Study",
+    "NormalizedName": "study",
+    "Description": "Policy always almost school.",
+    "Type": "garnish",
+    "IsAlcoholic": true,
+    "Abv": 15.23
+  },
+  {
+    "IngredientId": "72a23156-d57b-494f-b481-27d8e13e7341",
+    "Name": "Hear",
+    "NormalizedName": "hear",
+    "Description": "Across various more if continue consider should.",
+    "Type": "spice",
+    "IsAlcoholic": true,
+    "Abv": 5.34
+  },
+  {
+    "IngredientId": "ecc071dc-79e0-49e3-9747-d28dbe46aef9",
+    "Name": "Office",
+    "NormalizedName": "office",
+    "Description": "Similar late professor campaign wind shoulder.",
+    "Type": "liquor",
+    "IsAlcoholic": true,
+    "Abv": 0.96
+  },
+  {
+    "IngredientId": "7ce812f9-e01f-461e-bf8b-3cce2a059f18",
+    "Name": "Vote",
+    "NormalizedName": "vote",
+    "Description": "Part seat force history high will.",
+    "Type": "spice",
+    "IsAlcoholic": false,
+    "Abv": 33.57
+  },
+  {
+    "IngredientId": "bb01f43e-ceae-46f2-9006-a43391292f00",
+    "Name": "Total",
+    "NormalizedName": "total",
+    "Description": "Attorney simply during learn.",
+    "Type": "juice",
+    "IsAlcoholic": false,
+    "Abv": 1.56
+  },
+  {
+    "IngredientId": "2e5600f9-840b-4233-a702-7f3391329b0d",
+    "Name": "Pass",
+    "NormalizedName": "pass",
+    "Description": "Place consumer guy although benefit someone.",
+    "Type": "spice",
+    "IsAlcoholic": true,
+    "Abv": 18.12
+  },
+  {
+    "IngredientId": "62290454-307b-4b95-b9fb-da2e0d4fc238",
+    "Name": "Reason",
+    "NormalizedName": "reason",
+    "Description": "Major inside everybody pretty.",
+    "Type": "juice",
+    "IsAlcoholic": false,
+    "Abv": 32.02
+  },
+  {
+    "IngredientId": "83673277-3768-406b-a0a4-679f2e186600",
+    "Name": "Tell",
+    "NormalizedName": "tell",
+    "Description": "Spring whom until.",
+    "Type": "garnish",
+    "IsAlcoholic": false,
+    "Abv": 46.25
+  },
+  {
+    "IngredientId": "8c75b06c-6211-48b7-bd96-71b814a87008",
+    "Name": "Pm",
+    "NormalizedName": "pm",
+    "Description": "These hold speech continue.",
+    "Type": "garnish",
+    "IsAlcoholic": true,
+    "Abv": 11.57
+  },
+  {
+    "IngredientId": "26ba3be4-a346-4305-a5c0-0e777f8bc1ca",
+    "Name": "House",
+    "NormalizedName": "house",
+    "Description": "Rich or store ok treat especially throughout.",
+    "Type": "juice",
+    "IsAlcoholic": false,
+    "Abv": 4.52
+  },
+  {
+    "IngredientId": "56438b27-2a81-440d-992f-e4bbc09bbb2c",
+    "Name": "Appear",
+    "NormalizedName": "appear",
+    "Description": "Seek hot knowledge hear huge out establish.",
+    "Type": "juice",
+    "IsAlcoholic": false,
+    "Abv": 16.73
+  }
+]
