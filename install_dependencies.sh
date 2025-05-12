@@ -1,6 +1,13 @@
 #!/bin/bash
 set -euo pipefail
 
+# ================================================================
+# Script di setup per ambiente di sviluppo locale su Ubuntu 24.04
+# Installa: .NET SDK 8, client PostgreSQL, Docker + Docker Compose
+# Aggiunge l'utente al gruppo docker per evitare 'sudo' nei comandi
+# Dopo l'esecuzione, riavvia il terminale o esegui 'newgrp docker'
+# ================================================================
+
 # Colori per output leggibile
 GREEN="\033[1;32m"
 YELLOW="\033[1;33m"

@@ -132,6 +132,7 @@ services:
       - Jwt__Audience=${JWT_AUDIENCE}
     depends_on:
       - postgres
+      - auth-service
     restart: on-failure
     networks:
       - backend
