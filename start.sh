@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git clone git@github.com:GliScoppiati/Frontend.git Frontend
+
 git clone git@github.com:GliScoppiati/be_AuthService.git AuthService
 
 git clone git@github.com:GliScoppiati/be_CocktailImportService.git CocktailImportService
