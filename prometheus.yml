@@ -2,54 +2,19 @@ global:
   scrape_interval: 15s
 
 scrape_configs:
-  - job_name: cadvisor
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'cadvisor'
     static_configs:
       - targets: ['cadvisor:8080']
 
-  - job_name: prometheus
+  - job_name: 'dotnet-apps'
     static_configs:
-      - targets: ['prometheus:9090']
-
-  - job_name: loki
-    static_configs:
-      - targets: ['loki:3100']
-
-  - job_name: tempo
-    metrics_path: /metrics
-    static_configs:
-      - targets: ['tempo:3200']
-
-  - job_name: grafana
-    metrics_path: /metrics
-    static_configs:
-      - targets: ['grafana:3000']
-
-  - job_name: gateway
-    metrics_path: /metrics
-    static_configs:
-      - targets: ['gateway:5000']
-
-  - job_name: auth-service
-    metrics_path: /metrics
-    static_configs:
-      - targets: ['auth-service:80']
-
-  - job_name: user-profile-service
-    metrics_path: /metrics
-    static_configs:
-      - targets: ['user-profile-service:80']
-
-  - job_name: cocktail-import-service
-    metrics_path: /metrics
-    static_configs:
-      - targets: ['cocktail-import-service:80']
-
-  - job_name: cocktail-submission-service
-    metrics_path: /metrics
-    static_configs:
-      - targets: ['cocktail-submission-service:80']
-
-  - job_name: cocktail-service
-    metrics_path: /metrics
-    static_configs:
-      - targets: ['cocktail-service:80']
+      - targets:
+          - auth-service:80
+          - user-profile-service:80
+          - cocktail-import-service:80
+          - cocktail-service:80
+          - search-service:80

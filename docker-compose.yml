@@ -1,4 +1,8 @@
+# === DOCKER COMPOSE CONFIGURAZIONE ===
+#version: "3.9"
+
 services:
+
   # --------------------------------------------------
   # DATABASE
   # --------------------------------------------------
@@ -15,191 +19,33 @@ services:
       - pgdata:/var/lib/postgresql/data
     networks:
       - backend
+
   # --------------------------------------------------
-  # AUTH SERVICE
+  # GRAFANA
   # --------------------------------------------------
-  auth-service:
-    build:
-      context: ./AuthService
-      dockerfile: Dockerfile
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
     depends_on:
-      - postgres
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
-      - AdminUser__Email=admin@cocktail.local
-      - AdminUser__Username=admin
-      - AdminUser__Password=SuperSegreta123!
+      - prometheus
+      #- loki
     networks:
       - backend
+
   # --------------------------------------------------
-  # USER PROFILE SERVICE
+  # PROMETHEUS
   # --------------------------------------------------
-  user-profile-service:
-    build:
-      context: ./UserProfileService
-      dockerfile: Dockerfile
-    depends_on:
-      - postgres
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
-    #ports:
-    #  - "5002:80"
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
     networks:
       - backend
-  # --------------------------------------------------
-  # COCKTAIL-IMPORT SERVICE
-  # --------------------------------------------------
-  cocktail-import-service:
-    build:
-      context: ./CocktailImportService
-      dockerfile: Dockerfile
-    depends_on:
-      - postgres
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
-    #ports:
-    #  - "5003:80"
-    networks:
-      - backend
-  # --------------------------------------------------
-  # COCKTAIL-SUBMISSION SERVICE
-  # --------------------------------------------------
-  cocktail-submission-service:
-    build:
-      context: ./CocktailSubmissionService
-      dockerfile: Dockerfile
-    depends_on:
-      - postgres
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
-    #ports:
-    #  - "5004:80"
-    networks:
-      - backend
-  # --------------------------------------------------
-  # COCKTAIL SERVICE
-  # --------------------------------------------------
-  cocktail-service:
-    build:
-      context: ./CocktailService
-      dockerfile: Dockerfile
-    depends_on:
-      - postgres
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
-    #ports:
-    #  - "5005:80"
-    networks:
-      - backend
-  # --------------------------------------------------
-  # SEARCH SERVICE
-  # --------------------------------------------------
-  search-service:
-    build:
-      context: ./SearchService
-      dockerfile: Dockerfile
-    depends_on:
-      - postgres
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
-      - REFRESH_INTERVAL_MINUTES=1
-    #ports:
-    #  - "5006:80"
-    networks:
-      - backend
-  # --------------------------------------------------
-  # IMAGE FETCHER SERVICE
-  # --------------------------------------------------
-  image-fetcher-service:
-    build:
-      context: ./ImageFetcherService
-      dockerfile: Dockerfile
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
-      - Pexels__ApiKey=${PEXELS_API_KEY}
-      - Pixabay__ApiKey=${PIXABAY_API_KEY}
-      - Unsplash__AccessKey=${UNSPLASH_ACCESS_KEY}
-    #ports:
-    #  - "5007:80"
-    networks:
-      - backend
-  # --------------------------------------------------
-  # SEARCH HISTORY SERVICE
-  # --------------------------------------------------
-  search-history-service:
-    build:
-      context: ./SearchHistoryService
-      dockerfile: Dockerfile
-    depends_on:
-      - postgres
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
-    #ports:
-    #  - "5008:80"
-    networks:
-      - backend
-  # --------------------------------------------------
-  # FAVORITE COCKTAILS SERVICE
-  # --------------------------------------------------
-  favorite-cocktails-service:
-    build:
-      context: ./FavoriteCocktailsService
-      dockerfile: Dockerfile
-    depends_on:
-      - postgres
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:80
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
-    #ports:
-    #  - "5008:80"
-    networks:
-      - backend
-  # # --------------------------------------------------
-  # # PROMETHEUS
-  # # --------------------------------------------------
-  # prometheus:
-  #   image: prom/prometheus
-  #   volumes:
-  #     - ./prometheus.yml:/etc/prometheus/prometheus.yml
-  #   ports:
-  #     - "9090:9090"
-  #   networks:
-  #     - backend
 
   # # --------------------------------------------------
   # # LOKI
@@ -209,59 +55,258 @@ services:
   #   ports:
   #     - "3100:3100"
   #   command: -config.file=/etc/loki/local-config.yaml
+  #   volumes:
+  #     - ./loki-config.yaml:/etc/loki/local-config.yaml
+  #     - loki-data:/loki
   #   networks:
   #     - backend
 
   # # --------------------------------------------------
-  # # GRAFANA
+  # # PROMTAIL 
   # # --------------------------------------------------
-  # grafana:
-  #   image: grafana/grafana
-  #   ports:
-  #     - "3000:3000"
-  #   networks:
-  #     - backend
-  #   depends_on:
-  #     - prometheus
-  #     - loki
-  # # --------------------------------------------------
-  # # CADVISOR
-  # # --------------------------------------------------
-  # cadvisor:
-  #   image: gcr.io/cadvisor/cadvisor:latest
-  #   container_name: cadvisor
-  #   ports:
-  #     - "8080:8080"
+  # promtail:
+  #   image: grafana/promtail:2.9.0
   #   volumes:
-  #     - /:/rootfs:ro
-  #     - /var/run:/var/run:ro
-  #     - /sys:/sys:ro
-  #     - /var/lib/docker/:/var/lib/docker:ro
+  #     - /var/lib/docker/containers:/var/lib/docker/containers:ro
+  #     - /var/log:/var/log:ro
+  #     - ./promtail-config.yaml:/etc/promtail/promtail.yaml
+  #   command: -config.file=/etc/promtail/promtail.yaml
+  #   depends_on:
+  #     - loki
   #   networks:
   #     - backend
+
   # --------------------------------------------------
-  # API GATEWAY
+  # CADVISOR 
+  # --------------------------------------------------
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # AUTH SERVICE
+  # --------------------------------------------------
+  auth-service:
+    build:
+      context: ./AuthService
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=${AUTH_DB_CONNECTION_STRING}
+      - AdminUser__Email=${ADMIN_EMAIL}
+      - AdminUser__Username=${ADMIN_USERNAME}
+      - AdminUser__Password=${ADMIN_PASSWORD}
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+    depends_on:
+      - postgres
+    restart: on-failure
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # USER PROFILE SERVICE
+  # --------------------------------------------------
+  user-profile-service:
+    build:
+      context: ./UserProfileService
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=${AUTH_DB_CONNECTION_STRING}
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+    depends_on:
+      - postgres
+    restart: on-failure
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # COCKTAIL-IMPORT SERVICE
+  # --------------------------------------------------
+  cocktail-import-service:
+    build:
+      context: ./CocktailImportService
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=${IMPORT_DB_CONNECTION_STRING}
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+    depends_on:
+      - postgres
+    restart: on-failure
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # COCKTAIL-SUBMISSION SERVICE
+  # --------------------------------------------------
+  cocktail-submission-service:
+    build:
+      context: ./CocktailSubmissionService
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=${SUBMISSION_DB_CONNECTION_STRING}
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+    depends_on:
+      - postgres
+    restart: on-failure
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # COCKTAIL SERVICE
+  # --------------------------------------------------
+  cocktail-service:
+    build:
+      context: ./CocktailService
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=${COCKTAIL_DB_CONNECTION_STRING}
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+    depends_on:
+      - postgres
+    restart: on-failure
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # SEARCH SERVICE
+  # --------------------------------------------------
+  search-service:
+    build:
+      context: ./SearchService
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=${SEARCH_DB_CONNECTION_STRING}
+      - RefreshJob__IntervalMinutes=${REFRESH_INTERVAL_MINUTES}
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+    depends_on:
+      - postgres
+    restart: on-failure
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # IMAGE FETCHER SERVICE
+  # --------------------------------------------------
+  image-fetcher-service:
+    build:
+      context: ./ImageFetcherService
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - Pexels__ApiKey=${PEXELS_API_KEY}
+      - Pixabay__ApiKey=${PIXABAY_API_KEY}
+      - Unsplash__AccessKey=${UNSPLASH_ACCESS_KEY}
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+    restart: on-failure
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # SEARCH HISTORY SERVICE
+  # --------------------------------------------------
+  search-history-service:
+    build:
+      context: ./SearchHistoryService
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=${SEARCH_HISTORY_DB_CONNECTION_STRING}
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+    depends_on:
+      - postgres
+    restart: on-failure
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # FAVORITE COCKTAILS SERVICE
+  # --------------------------------------------------
+  favorite-cocktails-service:
+    build:
+      context: ./FavoriteCocktailsService
+    env_file:
+      - .env
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=${FAVORITE_DB_CONNECTION_STRING}
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+    depends_on:
+      - postgres
+    restart: on-failure
+    networks:
+      - backend
+
+  # --------------------------------------------------
+  # GATEWAY
   # --------------------------------------------------
   gateway:
     build:
       context: ./Gateway
-      dockerfile: Dockerfile
-    depends_on:
-      - auth-service
+    env_file:
+      - .env
     environment:
       - ASPNETCORE_URLS=http://+:5000
-      - JWT__Key=questa-e-una-chiave-super-segreta-lunga
-      - JWT__Issuer=CocktailDebacle
-      - JWT__Audience=CocktailDebacleUsers
     ports:
       - "5000:5000"
+    depends_on:
+      - auth-service
+    restart: on-failure
     networks:
       - backend
 
 volumes:
   pgdata:
+  grafana-storage:
+  #loki-data:
 
 networks:
   backend:
     driver: bridge
-
